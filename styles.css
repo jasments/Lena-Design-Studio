@@ -1154,5 +1154,30 @@ footer {
     font-size: 18px;
     line-height: 1.65;
   }
+@media (max-width: 768px) {
 
+  .legal-wrap {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .legal-wrap h1 {
+    font-size: 48px;
+    line-height: 0.95;
+  }
+
+  .legal-wrap h2 {
+    font-size: 36px;
+    line-height: 1;
+    overflow-wrap: break-word;
+  }
+
+  .legal-wrap p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+}
 }
