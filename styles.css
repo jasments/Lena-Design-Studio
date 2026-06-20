@@ -219,17 +219,13 @@ p {
 
 .portrait-card {
   position: relative;
-  padding: 16px;
+  padding: 22px;
   border-radius: 60% 60% 30px 30px;
-  background: rgba(255, 250, 243, .7);
+  background: #fffaf3;
   border: 1px solid rgba(22, 19, 19, .12);
-  box-shadow: var(--shadow);}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 28px 70px rgba(38, 27, 20, 0.13);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
-
 
 .portrait-card img {
   aspect-ratio: 4 / 5;
@@ -237,6 +233,12 @@ p {
   border-radius: 55% 55% 22px 22px;
   filter: saturate(.92) contrast(1.02);
 }
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 28px 70px rgba(38, 27, 20, 0.13);
+}
+
 
 .floating-note {
   position: absolute;
